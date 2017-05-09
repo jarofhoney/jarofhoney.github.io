@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size:16px;
+}
+nav {
+	background-color: black;
+}
+nav img {
+	height:1.25em;
+}
+nav a {
+	color:#eee;
+}
+.logo {
+	width:10em;
+}
+#firstsection {
+	background-image: url(../images/adherium_img_1.jpg);
+	height: 500px;
+	background-size: cover;
+	background-repeat:no-repeat;
+}
+#secondsection {
+	background-image: url(images/difficult-breathing.jpg);
+	height: 376px;
+	background-size: cover;
+}
