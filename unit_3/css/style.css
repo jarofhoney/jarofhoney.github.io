@@ -5,25 +5,196 @@ body {
 	font-size:16px;
 }
 nav {
-	background-color: black;
+	background-color: white;
+	display: inline-block;
+	height: 4em;
+	padding-top: 3em;
+	padding-bottom: 3em;
+	padding-left: 10em;
+	font-size: 14px;
+	position: block;
+	border-bottom: 2px; 
 }
 nav img {
 	height:1.25em;
+	margin-left: : 5em;
 }
 nav a {
-	color:#eee;
+	color:#666;
+	padding-right: 1.25em;
+	text-decoration: none;
 }
 .logo {
 	width:10em;
 }
-#firstsection {
+#YearinReview {
 	background-image: url(../images/adherium_img_1.jpg);
-	height: 500px;
+	height: 700px;
 	background-size: cover;
 	background-repeat:no-repeat;
+	margin: auto;
 }
-#secondsection {
-	background-image: url(images/difficult-breathing.jpg);
-	height: 376px;
+.YearinReview1of2 {
+	width: 45em;
+	height: 15em;
+	display: inline-block;
+	text-align: left;
+}
+.YearinReview2of2 {
+	width: 45em;
+	height: 15em;
+	display: inline-block;
+}
+.YearinReview1of2 h1{
+	font-size: 60px;
+	font-weight: normal;
+}
+.YearinReview1of2 h2{
+	font-size: 40px;
+}
+#Medication {
+	background-image: url(../images/difficult-breathing.jpg);
+	height: 700px;
 	background-size: cover;
+	background-repeat:no-repeat;
+	margin: auto;
+	text-align: center;
 }
+
+.Medication1of2 {
+	width: 45em;
+	height: 15em;
+	display: inline-block;
+}
+.Medication2of2 {
+	width: 45em;
+	display: inline-block;
+	text-align: left;
+}
+.Medication2of2 p{
+	width: 30em;
+	text-align: left;
+}
+.Medication2of2 h2{
+	font-size: 40px;
+}
+#OurBusiness {
+	margin: auto;
+	background-color: red;
+	text-align: center;
+}
+.OurBusinessIntro{
+	text-align: center;
+	width: 50em;
+	margin: auto;
+}
+.OurBusinessIntro img{
+	margin: auto;
+	width: 900px;
+}
+.SmartPlatformIntro {
+	margin: auto;
+	text-align: center;
+	width: 50em;
+}
+.SmartPlatform {
+	display: inline-block;
+	height: 400px;
+	background-color: #e8e8e8;
+	width: 400px;
+}
+.SmartPlatform img {
+	display: block;
+	margin: auto;
+	height: 200px;
+}
+.SmartPlatform p {
+	width: 350px;
+	text-align: left;
+}
+#ProvenHealthTech {
+	height: 500px;
+	background-color: yellow;
+}
+
+.ProvenHealthTech1 {
+	display: inline-block;
+	width: 400px;
+	margin: auto;
+	background-color: blue;
+}
+.ProvenHealthTech2 {
+	display: inline-block;
+	width: 400px;
+	margin: auto;
+	background-color: blue;
+}
+#ProvenHealthTech img {
+	display: block;
+	margin: auto;
+}
+#ProvenHealthTech p {
+	text-align: left;
+	margin: auto;
+	width: 400px;
+}
+.SmartInhalerAdoption li {
+	width: 700px;
+	margin: auto;
+	text-align: center;
+}
+.PathwaySuccess {
+	display: inline-block;
+	width: 300px;
+}
+.PathwaySuccess img {
+	display: block;
+	margin: auto;
+	width: 10em;
+
+}
+.PathwaySuccess p {
+	width: 300px;
+	text-align: center;
+}
+#StatementHighlights {
+	margin: auto;
+	text-align: left;
+	background-color: pink;
+}
+#StatementHighlights h2{
+	text-align: center;
+
+}
+.chairmanphoto {
+	display: inline-block;
+}
+.chairmanphoto img {
+	height: 20em;
+}
+.chairmantext {
+	display: inline-block;
+	width: 35em;
+	height: 20em;
+	background-color: gray;
+}
+.chairmantext p {
+	width: 400px;
+}
+.chairmantext a {
+	text-decoration: none;
+}
+.CEOPhoto {
+	display: inline-block;
+}
+.CEOPhoto img {
+	height: 20em;
+}
+.CEOtext {
+	display: inline-block;
+	background-color: gray;
+	width: 35em;
+	height: 20em;
+}
+.CEOtext p {
+	width: 400px;
