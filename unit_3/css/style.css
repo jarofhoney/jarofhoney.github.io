@@ -25,7 +25,7 @@ body h3 {
     position: fixed;
     padding-top: 1.5em;
     padding-bottom: 1.5em;
-    box-shadow: 0px 30px 30px rgba(0,0,0,.025);
+    box-shadow: 0px 30px 30px rgba(0,0,0,.03);
     border-bottom: 3px solid #e22b3f;
 }
 .logo {
@@ -110,6 +110,7 @@ nav img {
 	background-color: white;
 	text-align: center;
 	padding-top: 6em;
+	padding-bottom: 1em;
 }
 .OurBusinessIntro h2 {
 	font-size: 40px;
@@ -131,6 +132,7 @@ nav img {
 	width: 50em;
 	line-height: 1.5em;
 	margin-top: 3em;
+	margin-bottom: 3em;
 }
 .SmartPlatformProcess {
 	margin: auto;
@@ -145,10 +147,10 @@ nav img {
 	height: 430px;
 	background-color: #f7f7f7;
 	width: 320px;
-	margin-top: 3em;
 	margin-left: .5em;
+	margin-top: .5em
 	margin-right: .5em;
-	margin-bottom: 5em;
+	margin-bottom: .5em;
 	padding-top: 2em;
 }
 .SmartPlatformContent img {
@@ -163,58 +165,111 @@ nav img {
 	text-align: left;
 	line-height: 1.5em;
 }
+.ProvenHealthTech {
+	margin-top: 4em;
+}
 .ProvenHealthTechContainer {
 	margin: auto;
 	width: 100%;
 	height: 100%;
 	background-color: white;
 }
-#ProvenHealthTech h3 {
+.ProvenHealthTech h3 {
 	font-size: 25px;
+}
+.ProvenHealthTech img {
+	width: 20em;
+	margin: auto;
+}
+.ProvenHealthText {
+	width: 100%;
+	margin: auto;
+}
+.sixtypercent {
+	font-size: 40px;
+	display: inline-block;
+	margin-left: 1em;
+	margin-top: .5em;
+	color:#555;
+	font-weight: bolder;
+}
+.ProvenHealthText p {
+	text-align: left;
+	display: inline-block;
+	width: 12em;
+	margin-left: 1em;
+	margin-top: .5em;
+	line-height: 1.5em;
+}
+.hundred80percent {
+	font-size: 20px;
+	margin-top: .5em;
+	color:#555;
+	font-weight: bolder;
+}
+.fiftyninepercent {
+	font-size: 20px;
+	margin-top: .5em;
+	color:#555;
+	font-weight: bolder;
+}
+.ProvenHealthText2 p {
+	text-align: left;
+	display: inline-block;
+	width: 80%;
+	margin-top: 1em;
+	line-height: 1.5em;
 }
 .ProvenHealthTechContent {
 	margin: auto;
 	display: inline-block;
 	vertical-align: middle;
-	height: 400px;
+	height: 300px;
 	background-color: white;
-	width: 320px;
-	margin-top: 4em;
+	width: 400px;
+	margin-top: 3em;
 	margin-left: 1em;
 	margin-right: 1em;
+	margin-bottom: 1em;
+}
+.SmartInhalerAdoptionContent {
+	margin-top: 4em;
 	margin-bottom: 4em;
+	width: 100%;
+	padding-top: 1em;
 }
-#ProvenHealthTech img {
-	width: 18em;
-	margin: auto;
-}
-#ProvenHealthTech p {
+.SmartInhalerAdoptionText1 {
+	width: 400px;
+	height: 120px;
 	text-align: left;
-	margin: auto;
-	padding-top: 2em;
-	padding-right: 2.5em;
-	padding-left: 2.5em;
+	display: inline-block;
+	vertical-align: middle;
+	margin: .25em;
+	padding: .75em;
+	background-color: #f7f7f7;
+	line-height: 1.5em;
 }
-.SmartInhalerAdoption li {
-	width: 700px;
-	margin: auto;
-	text-align: center;
+.SmartInhalerAdoptionText2 {
+	width: 400px;
+	height: 120px;
+	text-align: left;
+	display: inline-block;
+	vertical-align: middle;
+	margin: .25em;
+	padding: .75em;
+	background-color: #f7f7f7;
+	line-height: 1.5em;
 }
-.SmartInhalerAdoption h3 {
+.SmartInhalerAdoptionContent h3 {
 	font-size: 25px;
+	padding-bottom: 1em;
+}
+.SmartInhalerAdoptionContent img {
+	width: 50em;
 }
 .PathwaySuccess {
 	display: inline-block;
 	width: 300px;
-}
-.PathwaySuccess img {
-	display: block;
-	margin: auto;
-	width: 10em;
-}
-.PathwaySuccess p {
-	width: 300px;
-	text-align: center;
 }
 #StatementHighlights {
 	margin: auto;
