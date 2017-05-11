@@ -316,6 +316,7 @@ nav img {
 	background-color: gray;
 	width: 35em;
 	height: 20em;
+	vertical-align: middle;
 }
 .CEOtext p {
 	width: 400px;
