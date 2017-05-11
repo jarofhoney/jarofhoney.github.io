@@ -1,116 +1,151 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i");
 * { margin:0; padding:0; box-sizing:border-box; }
 body {
 	font-family: 'Roboto', sans-serif;
 	font-size:16px;
+	max-width: 1366px;
+	margin: auto;
+	background-color: #f7f7f7;
+}
+body p {
+	color:#555;
+}
+body h1 {
+	color:#555;
+}
+body h2 {
+	color:#555;
+}
+body h3 {
+	color:#555;
+}
+#headerwrapper {
+	width: 1366px;
+    background-color: white;
+    position: fixed;
+    height: 90px;
+    padding-top: 1.5em;
+    box-shadow: 0px 30px 30px rgba(0,0,0,.025);
+    border-bottom: 3px solid #e22b3f;
+}
+.logo {
+	display: inline-block;
+	width: 3em;
+	margin-left: 2em;
+	position: relative;
+}
+nav a {
+	color:#777;
+	text-decoration: none;
+	font-size: 17px;
+	display: inline-block;
+	padding-left: 1em;
 }
 nav {
-	background-color: white;
 	display: inline-block;
-	height: 4em;
-	padding-top: 3em;
-	padding-bottom: 3em;
-	padding-left: 10em;
-	font-size: 14px;
-	position: block;
-	border-bottom: 2px; 
+	float: right;
+	padding-right: 1em;
 }
 nav img {
 	height:1.25em;
-	margin-left: : 5em;
+	display: inline-block;
 }
-nav a {
-	color:#666;
-	padding-right: 1.25em;
-	text-decoration: none;
-}
+
 .logo {
 	width:10em;
 }
 #YearinReview {
-	background-image: url(../images/adherium_img_1.jpg);
-	height: 1000px;
+	background-image: url(../images/asthma-inhaler.jpg);
 	background-size: cover;
+	height: 1200px;
 	background-repeat:no-repeat;
-	margin: auto;
 }
-.YearinReview1of2 {
-	width: 45em;
-	height: 15em;
-	display: inline-block;
-	text-align: left;
-}
-.YearinReview2of2 {
-	width: 45em;
-	height: 15em;
-	display: inline-block;
-}
-.YearinReview1of2 h1{
-	font-size: 60px;
-	font-weight: normal;
-}
-.YearinReview1of2 h2{
-	font-size: 40px;
-}
-#Medication {
-	background-image: url(../images/difficult-breathing.jpg);
-	height: 700px;
-	background-size: cover;
-	background-repeat:no-repeat;
-	margin: auto;
-	text-align: center;
-}
+#YearinReview h1{
+	font-size: 80px;
+	font-weight: bold;
+	padding-top: 450px;
+	padding-left: 70px;
 
-.Medication1of2 {
-	width: 45em;
-	height: 15em;
-	display: inline-block;
 }
-.Medication2of2 {
-	width: 45em;
-	display: inline-block;
-	text-align: left;
-}
-.Medication2of2 p{
-	width: 30em;
-	text-align: left;
-}
-.Medication2of2 h2{
+#YearinReview h2{
 	font-size: 40px;
+	font-weight: lighter;
+	padding-left: 70px;
+
+}
+.Medication {
+	background-image: url(../images/difficult-breathing.png);
+	background-repeat:no-repeat;
+	padding-top: 100px;
+	width: 1366px;
+	height: 550px;
+	margin: auto;
+	margin-top: .75em;
+	margin-bottom: .75em;
+}
+#MedicationText{
+	width:600px;
+	float: right;
+	padding-top: 3em;
+	margin-right: 4.5em;
+}
+#MedicationText h2{
+	font-size: 40px;
+	text-align: left;
+	margin-bottom: .25em;
+	color: white;
+}
+#MedicationText p{
+	padding-top: 1em;
+	text-align: left;
+	line-height: 1.5em;
+	color: white;
 }
 #OurBusiness {
-	margin: auto;
-	background-color: red;
+	background-color: white;
 	text-align: center;
+	padding-top: 5em;
 }
-.OurBusinessIntro{
-	text-align: center;
+.OurBusinessIntro h2 {
+	font-size: 40px;
+	margin-bottom: .5em;
+}
+.OurBusinessIntro p{
+	line-height: 1.5em;
 	width: 50em;
 	margin: auto;
 }
-.OurBusinessIntro img{
-	margin: auto;
-	width: 900px;
+#OurBusiness img{
+	margin:0 auto;
+	padding-top: 2em;
+	padding-bottom: 2em;
 }
 .SmartPlatformIntro {
 	margin: auto;
 	text-align: center;
 	width: 50em;
+	line-height: 1.5em;
+	padding-bottom: 2em;
 }
 .SmartPlatform {
 	display: inline-block;
-	height: 400px;
-	background-color: #e8e8e8;
-	width: 400px;
+	height: 300px;
+	background-color: white;
+	width: 350px;
+	padding-top: 2em;
+	padding-bottom: 2em;
+	margin-bottom: 2em;
 }
 .SmartPlatform img {
 	display: block;
 	margin: auto;
-	height: 200px;
+	height: 12em;
 }
 .SmartPlatform p {
 	width: 350px;
-	text-align: left;
+	height: 400px;
+	display: inline-block;
+	text-align: center;
 }
 #ProvenHealthTech {
 	height: 500px;
@@ -120,23 +155,25 @@ nav a {
 .ProvenHealthTech1 {
 	display: inline-block;
 	width: 400px;
+	height: 400px;
 	margin: auto;
 	background-color: blue;
 }
 .ProvenHealthTech2 {
 	display: inline-block;
 	width: 400px;
+	height: 400px;
 	margin: auto;
 	background-color: blue;
 }
 #ProvenHealthTech img {
-	display: block;
+	width: 30em;
 	margin: auto;
+	padding-bottom: 2em;
 }
 #ProvenHealthTech p {
 	text-align: left;
 	margin: auto;
-	width: 400px;
 }
 .SmartInhalerAdoption li {
 	width: 700px;
@@ -151,7 +188,6 @@ nav a {
 	display: block;
 	margin: auto;
 	width: 10em;
-
 }
 .PathwaySuccess p {
 	width: 300px;
