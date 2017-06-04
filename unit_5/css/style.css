@@ -1,0 +1,466 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i");
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size:16px;
+	margin: auto;
+	background-color: #f7f7f7;
+}
+body p {
+	color:#555;
+}
+body h1 {
+	color:#555;
+}
+body h2 {
+	color:#555;
+}
+body h3 {
+	color:#555;
+}
+header {
+	background-color: white;
+	position: fixed;
+	padding-top: 1.5em;
+	padding-bottom: 1.5em;
+	box-shadow: 0px 30px 30px rgba(0,0,0,.03);
+	border-bottom: 3px solid #e22b3f;
+	width: 100%;
+}
+.logo {
+	display: inline-block;
+	width: 3em;
+	margin-left: 2em;
+	position: relative;
+}
+nav a {
+	color:#777;
+	text-decoration: none;
+	font-size: 17px;
+	display: inline-block;
+	padding-left: 1em;
+}
+nav {
+	display: inline-block;
+	float: right;
+	padding-right: 1em;
+}
+nav img {
+	height:1.25em;
+	display: inline-block;
+}
+
+.logo {
+	width:10em;
+}
+#YearinReview {
+	background-image: url(../images/asthma-inhaler.jpg);
+	background-size: cover;
+	background-repeat:no-repeat;
+	width: 100%;
+	height: 75em;
+}
+#YearinReview h1{
+	font-size: 80px;
+	font-weight: bold;
+	padding-top: 450px;
+	padding-left: 70px;
+
+}
+#YearinReview h2{
+	font-size: 40px;
+	font-weight: lighter;
+	padding-left: 70px;
+
+}
+#Medication {
+	height: 550px;
+	margin: auto;
+	margin-top: .75em;
+	margin-bottom: .75em;
+}
+.MedicationImg {
+	width:50%;
+	height: 100%;
+	background:url(../images/difficult-breathing.png);
+	background-size:cover;
+	background-position: center left;
+	background-repeat:no-repeat;
+	float: left;
+}
+.MedicationRow {
+	background-color: #e22b3f;
+	background-blend-mode: multiply;
+	padding: 2em;
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+.MedicationRowContent {
+	padding-top: 6em;
+	margin-right: 4em;
+	padding-left: 4em;
+}
+.MedicationRow h2{
+	font-size: 40px;
+	text-align: left;
+	margin-bottom: .5em;
+	color: white;
+}
+.MedicationRow p{
+	padding-top: 1em;
+	text-align: left;
+	line-height: 1.5em;
+	color: white;
+}
+#OurBusiness {
+	background-color: white;
+	text-align: center;
+	padding-top: 6em;
+	padding-bottom: 1em;
+}
+.OurBusinessIntro h2 {
+	font-size: 40px;
+	margin-bottom: .5em;
+}
+.OurBusinessIntro p{
+	line-height: 1.5em;
+	width: 50em;
+	margin: auto;
+}
+.OurBusinessProducts img{
+	margin: auto;
+	margin-top: .5em;
+	margin-bottom: .5em;
+}
+.SmartPlatformIntro {
+	margin: auto;
+	text-align: center;
+	width: 50em;
+	line-height: 1.5em;
+	margin-top: 3em;
+	margin-bottom: 3em;
+}
+.SmartPlatformProcess {
+	margin: auto;
+	width: 100%;
+	height: 100%;
+	background-color: white;
+}
+.SmartPlatformContent {
+	margin: auto;
+	display: inline-block;
+	vertical-align: middle;
+	height: 430px;
+	background-color: #f7f7f7;
+	width: 320px;
+	margin-left: .5em;
+	margin-top: .5em
+	margin-right: .5em;
+	margin-bottom: .5em;
+	padding-top: 2em;
+}
+.SmartPlatformContent img {
+	margin: auto;
+	height: 14em;
+}
+.SmartPlatformContent p {
+	padding-top: 1em;
+	padding-right: 2.5em;
+	padding-left: 2.5em;
+	display: inline-block;
+	text-align: left;
+	line-height: 1.5em;
+}
+.ProvenHealthTech {
+	margin-top: 4em;
+}
+.ProvenHealthTechContainer {
+	margin: auto;
+	width: 100%;
+	height: 100%;
+	background-color: white;
+}
+.ProvenHealthTech h3 {
+	font-size: 25px;
+}
+.ProvenHealthTech img {
+	width: 20em;
+	margin: auto;
+}
+.ProvenHealthText {
+	width: 100%;
+	margin: auto;
+}
+.sixtypercent {
+	font-size: 40px;
+	display: inline-block;
+	margin-left: 1em;
+	margin-top: .5em;
+	color:#555;
+	font-weight: bolder;
+}
+.ProvenHealthText p {
+	text-align: left;
+	display: inline-block;
+	width: 12em;
+	margin-left: 1em;
+	margin-top: .5em;
+	line-height: 1.5em;
+}
+.hundred80percent {
+	font-size: 20px;
+	margin-top: .5em;
+	color:#555;
+	font-weight: bolder;
+}
+.fiftyninepercent {
+	font-size: 20px;
+	margin-top: .5em;
+	color:#555;
+	font-weight: bolder;
+}
+.ProvenHealthText2 p {
+	text-align: left;
+	display: inline-block;
+	width: 80%;
+	margin-top: 1em;
+	line-height: 1.5em;
+}
+.ProvenHealthTechContent {
+	margin: auto;
+	display: inline-block;
+	vertical-align: middle;
+	height: 300px;
+	background-color: white;
+	width: 400px;
+	margin-top: 3em;
+	margin-left: 1em;
+	margin-right: 1em;
+	margin-bottom: 1em;
+}
+.SmartInhalerAdoptionContent {
+	margin-top: 4em;
+	margin-bottom: 4em;
+	width: 100%;
+	padding-top: 1em;
+}
+.SmartInhalerAdoptionText1 {
+	width: 400px;
+	height: 120px;
+	text-align: left;
+	display: inline-block;
+	vertical-align: middle;
+	margin: .25em;
+	padding: .75em;
+	background-color: #f7f7f7;
+	line-height: 1.5em;
+}
+.SmartInhalerAdoptionText2 {
+	width: 400px;
+	height: 120px;
+	text-align: left;
+	display: inline-block;
+	vertical-align: middle;
+	margin: .25em;
+	padding: .75em;
+	background-color: #f7f7f7;
+	line-height: 1.5em;
+}
+.SmartInhalerAdoptionContent h3 {
+	font-size: 25px;
+	padding-bottom: 1em;
+}
+.SmartInhalerAdoptionContent img {
+	width: 50em;
+}
+#StatementHighlights {
+	margin: auto;
+	text-align: left;
+	margin-top: 5em;
+	margin-bottom: 5em;
+}
+#StatementHighlights h2{
+	text-align: center;
+	font-size: 40px;
+	padding-bottom: 1em;
+}
+.ChairmanStatement {
+	margin: auto;
+	width: 70em;
+	height: 100%;
+	background-color: black;
+}
+.ChairmanStatement h3{
+	color: white;
+	font-size: 25px;
+	font-weight: bold;
+	padding-bottom: .75em;
+}
+.chairmantext {
+	display: inline-block;
+	width: 40em;
+	height: 20em;
+	background-color: #e22b3f;
+	vertical-align: middle;
+	padding: 2em;
+}
+.chairmanphoto {
+	width: 30em;
+	height: 20em;
+	display: inline-block;
+	float: right;
+	background-color: white;
+}
+.chairmantext p {
+	width: 30em;
+	font-size: 18px;
+	font-style: italic;
+	color: white;
+	line-height: 1.5em;
+	font-weight: lighter;
+	padding-bottom: .25em;
+}
+.chairmantext a {
+	text-decoration: none;
+	color: white;
+	font-size: 13px;
+	font-weight: bolder;
+}
+.chairmantext img {
+	width: 1.5em;
+	margin-right: .25em;
+}
+.CEOPhoto {
+	width: 30em;
+	height: 22em;
+	display: inline-block;
+	vertical-align: middle;
+	background-color: white;
+}
+.CEOtext {
+	display: inline-block;
+	width: 40em;
+	height: 22em;
+	background-color: #e22b3f;
+	vertical-align: middle;
+	padding: 2em;
+	float: right;
+}
+.CEOtext p {
+	width: 30em;
+	font-size: 18px;
+	font-style: italic;
+	color: white;
+	line-height: 1.5em;
+	font-weight: lighter;
+	padding-bottom: .25em;
+}
+.CEOReport {
+	margin: auto;
+	width: 70em;
+	height: 100%;
+	padding-top: 2em;
+}
+.CEOtext img {
+	width: 1.5em;
+	margin-right: .25em;
+}
+.CEOReport h3{
+	color: white;
+	font-size: 25px;
+	font-weight: bold;
+	padding-bottom: .75em;
+}
+.CEOReport a {
+	text-decoration: none;
+	color: white;
+	font-size: 13px;
+	font-weight: bolder;
+}
+#PerformanceSummary {
+	margin: auto;
+	width: 100%;
+	height: 100%;
+	background-color: white;
+	margin-top: 5em;
+	margin-bottom: 5em;
+}
+.PerfomanceSummaryTitle {
+	text-align: center;
+	font-size: 40px;
+	padding-bottom: 1em;
+	padding-top: 1em;
+}
+.PerformanceSummaryContainer {
+		margin: auto;
+		width: 70em;
+		height: 100%;
+}
+.PerformanceSummaryItems {
+		width: 70em;
+		height: 100%;
+		display: flex;
+}
+.PerformanceSummaryItem {
+	margin: auto;
+	float: left;
+	width: 27.33%;
+	margin: 3%;
+	height: 22em;
+	padding: 1em;
+	background-color: #f7f7f7;
+}
+.PerformanceSummaryItems img{
+	max-width: 12em;
+	width: 100%;
+	margin: auto;
+	display: block;
+	padding: 1em;
+}
+
+#PerformanceSummary p{
+	padding: 1em;
+	text-align: left;
+}
+
+#Milestones {
+	margin: 0 auto;
+	width: 70%;
+	height: 100%;
+}
+
+#Milestones h2 {
+	font-size: 40px;
+	text-align: center;
+	padding: 2em;
+}
+#Milestones img {
+	max-width: 15em;
+	padding-top: 2em;
+	padding-left: 2em;
+}
+.Milestone {
+	margin: 0 auto;
+	width: 30em;
+	height: 20em;
+	padding: 2em;
+	border-left: 4px black solid;
+	position: relative;
+}
+.Milestone p{
+	padding: 2em;
+	}
+	
+.Milestone::after {
+    width: 10px;
+    height: 10px;
+    display: block;
+    top: 24em;
+    border-radius: 20px;
+    content: '';
+    border: 3px solid rgb(0, 0, 0);
+    background: white;
+    left: -10px;
+    position: absolute;
+ }
