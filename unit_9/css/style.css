@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Asap");
+@import url("https://fonts.googleapis.com/css?family=Asap:400,500");
 * { margin:0; padding:0; box-sizing:border-box; }
 body {
 	font-family: 'Asap', sans-serif;
@@ -10,19 +10,25 @@ body p {
 	color:#333;
 	font-size:18pt;
 	font-weight: normal;
+	font-family: 'Asap', sans-serif, 400;
 }
 body h1 {
 	color:#333;
 	font-size:60pt;
+	font-family: 'Asap', sans-serif, 500;
+	font-weight: lighter;
 }
 body h2 {
 	color:#333;
 	font-size:30pt;
+	font-family: 'Asap', sans-serif, 500;
 	font-weight: lighter;
 }
 body h3 {
 	color:#333;
-	font-size: 30pt;
+	font-size: 27pt;
+	font-family: 'Asap', sans-serif, 400;
+	font-weight: lighter;
 }
 header {
 	background-color:white;
@@ -36,7 +42,7 @@ nav {
 nav a{
 	color:#333;
 	text-decoration:none;
-	font-size: 17px;
+	font-size: 15pt;
 	margin-right: 2em;
 }
 .logo {
@@ -67,10 +73,10 @@ nav a{
 	background-color: #21CC3D;
 	text-decoration: none;
 	color: white;
-	font-size: 25pt;
-	font-style: lighter;
+	font-family: 'Asap', sans-serif, 400;
+	font-size: 20pt;
 	margin-bottom: 3em;
-	padding: .5em 1em .5em 1em;
+	padding: .75em 1.25em .75em 1.25em;
 	border-radius: 3em;
 }
 #APlatform {
@@ -79,14 +85,16 @@ nav a{
 }
 #APlatformimage {
 	width: 50%;
-	
+
 }
 #APlatform h1{
 	text-align: center;
 	margin-bottom: .5em;
+	font-family: 'Asap', sans-serif, 400;
 }
 #APlatform h2{
 	text-align: center;
+	font-family: 'Asap', sans-serif, 400;
 }
 .vannair {
 	float: left;
@@ -111,14 +119,37 @@ nav a{
 	background-color: #21CC3D;
 	text-decoration: none;
 	color: white;
-	font-size: 25pt;
+	font-size: 20pt;
 	font-style: lighter;
 	margin: 2em 0 3em 0;
-	padding: .5em 1em .5em 1em;
+	padding: .75em 1.25em .75em 1.25em;
 	border-radius: 3em;
 }
 
-
+#HowEffective {
+	clear: left;
+}
+#HowEffective h1 {
+	text-align: center;
+}
+#HowEffectiveimage {
+	width: 50%;
+	float: left;
+}
+#HowEffectivetext {
+	width: 50%;
+	float: left;
+}
+#HowEffectivetext a {
+	background-color: #21CC3D;
+	text-decoration: none;
+	color: white;
+	font-size: 20pt;
+	font-style: lighter;
+	margin: 2em 0 3em 0;
+	padding: .75em 1.25em .75em 1.25em;
+	border-radius: 3em;
+}
 @media only screen and (max-width: 480px) {
     nav {
 }
