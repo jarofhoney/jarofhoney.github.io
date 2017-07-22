@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Asap:400,500");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400");
 * { margin:0; padding:0; box-sizing:border-box; }
 body {
 	font-family: 'Asap', sans-serif;
@@ -10,24 +10,24 @@ body p {
 	color:#333;
 	font-size:18pt;
 	font-weight: normal;
-	font-family: 'Asap', sans-serif, 400;
+	font-family: 'Source Sans Pro', sans-serif, 300;
 }
 body h1 {
 	color:#333;
 	font-size:60pt;
-	font-family: 'Asap', sans-serif, 500;
+	font-family: 'Source Sans Pro', sans-serif, 300;
 	font-weight: lighter;
 }
 body h2 {
 	color:#333;
 	font-size:30pt;
-	font-family: 'Asap', sans-serif, 500;
+	font-family: 'Source Sans Pro', sans-serif, 400;
 	font-weight: lighter;
 }
 body h3 {
 	color:#333;
 	font-size: 27pt;
-	font-family: 'Asap', sans-serif, 400;
+	font-family: 'Source Sans Pro', sans-serif, 400;
 	font-weight: lighter;
 }
 header {
@@ -57,7 +57,7 @@ nav a{
 }
 #TakeControltext {
 	width: 50%;
-	padding: 16em 0 14em 8em;
+	padding: 16em 5em 14em 8em;
 }
 
 #TakeControlh1 {
@@ -67,14 +67,14 @@ nav a{
 }
 #TakeControlh2{
 	color: white;
-	margin-bottom: 2em;
+	margin-bottom: 1.5em;
 }
 #TakeControltext a {
 	background-color: #21CC3D;
 	text-decoration: none;
 	color: white;
 	font-family: 'Asap', sans-serif, 400;
-	font-size: 20pt;
+	font-size: 1.5em;
 	margin-bottom: 3em;
 	padding: .75em 1.25em .75em 1.25em;
 	border-radius: 3em;
@@ -104,24 +104,14 @@ nav a{
 	width: 50%;
 	height: 100%;
 	float: left;
-	display: block;
 }
-#APlatformtext span {
-	width: 2em;
-	height: 2em;
-	background-color: red;
-	display: inline;	
-} 
-#APlatformtext h2 {
-	display: inline;
-	}
+
 #APlatformtext a {
 	background-color: #21CC3D;
 	text-decoration: none;
 	color: white;
-	font-size: 20pt;
+	font-size: 1.5em;
 	font-style: lighter;
-	margin: 2em 0 3em 0;
 	padding: .75em 1.25em .75em 1.25em;
 	border-radius: 3em;
 }
@@ -144,9 +134,8 @@ nav a{
 	background-color: #21CC3D;
 	text-decoration: none;
 	color: white;
-	font-size: 20pt;
+	font-size: 1.5em;
 	font-style: lighter;
-	margin: 2em 0 3em 0;
 	padding: .75em 1.25em .75em 1.25em;
 	border-radius: 3em;
 }
