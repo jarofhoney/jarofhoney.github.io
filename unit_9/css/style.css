@@ -325,7 +325,7 @@ body h3 {
 header {
 	background-color:white;
 	width: 100%;
-	padding: .1em;
+	padding: 1em .1em 1em .1em;
 	position: fixed;
 	margin: auto 0;
 }
@@ -338,7 +338,11 @@ nav a {
 }
 nav a img {
 	width: 30%;
-
+}
+.logo {
+	width: 10em;
+	display: inline-block;
+	position: relative;
 }
 #TakeControltext {
 	width: 100%;
@@ -362,13 +366,13 @@ nav a img {
 }
 #APlatform {
 	padding: 2em;
-	margin: auto;
 	width: 100%;
 	clear: left;
+
 }
 #APlatformimage {
 	width: 100%;
-	padding: 2em 0em 0em 0em;
+	padding: 2em 0em 2em 0em;
 }
 .vannair {
 	width: 100%;
@@ -377,6 +381,7 @@ nav a img {
 	padding: 1em 3em 2em 3em;
 	text-align: center;
 	width: 100%;
+	margin-bottom: 3em;
 }
 #spanimage1 {
 	width: 100%;
@@ -386,7 +391,7 @@ nav a img {
 	margin-bottom: 3em;
 }
 #spantext1 h3 {
-	margin-bottom: .25em;
+	margin-bottom: .1em;
 }
 #spanimage2 {
 	width: 100%;
@@ -396,7 +401,7 @@ nav a img {
 	width: 100%;
 }
 #spantext2 h3 {
-	margin-bottom: .25em;
+	margin-bottom: .1em;
 
 }
 #spanimage3 {
@@ -410,7 +415,7 @@ nav a img {
 
 }
 #spantext3 h3 {
-	margin-bottom: .25em;
+	margin-bottom: .1em;
 }
 
 #spanimage4 {
@@ -422,17 +427,69 @@ nav a img {
 	width: 100%;
 }
 #spantext4 h3 {
-	margin-bottom: .25em;
+	margin-bottom: .1em;
+
+}
+#HowEffective {
+	width: 100%;
+	padding: 3em 1em 3em 1em;
+	margin: auto 0;
+}
+#howeffectiveh1 {
+	text-align: center;
+	margin-bottom: .5em;
+	margin: auto;
+}
+#howeffectivegirl{
+	width: 100%;
+	display: block;
+	padding: 2em 0 1em 0;
+	align-content: center;
+}
+#HowEffectivetext {
+	width: 100%;
+	padding: 3em 2em 2em 2em;
+	vertical-align: middle;
 }
 
-#spanlink a {
-	clear: left;
-	background-color: #21CC3D;
+#HowEffectivetext p{
+	padding: 0 2em 2em 0;
+}
+#StartTakingControl {
+	width: 100%;
+}
+#StartTakingControltext {
+	padding: 6em 3em 6em 3em;
+	width: 100%;
+}
+
+#StartTakingControl h1 {
+	margin-bottom: .5em;
+}
+#StartTakingControl p {
+	margin-bottom: .5em;
+}
+
+#footer {
+	background-color: #333;
+	width: 100%;
+	height: 22em;
+	padding: 3em 2em 15em 2em;
 	text-decoration: none;
-	color: white;
-	font-size: 1.5em;
-	font-style: lighter;
-	padding: .75em 1.25em .75em 1.25em;
-	border-radius: 3em;
+}
+#footer1 a {
+	display: block;
+
+}
+#footer1 {
+	padding: 0 0 0 1.5em;
+}
+
+#footer1 img {
+	display: inline-block;
+	width: 1.75em;
+	padding: 1em 0 0 0;
+	margin-right: .25em;
+
 }
 }
