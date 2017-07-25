@@ -304,8 +304,7 @@ nav img {
 }
 
 @media only screen and (max-width: 480px) {
-    nav {
-}
+
 body p {
 
 	font-size:15pt;
@@ -332,11 +331,108 @@ header {
 }
 nav a {
 	font-size: 10pt;
-	display: block;
+	display: inline-block;
 	padding: .1em;
 	text-align: center;
+	vertical-align: middle; 
+}
+nav a img {
+	width: 30%;
 
 }
-nav img {
-	vertical-align: middle;
+#TakeControltext {
+	width: 100%;
+	padding: 10em 2em 2em 2em;
+	text-align: center;
+}
+#TakeControl {
+	background-image: url(../images/stock-photo-family-running-through-field-letting-kite-fly-570119506.jpg);
+	background-size: cover;
+	background-repeat:no-repeat;
+	width: 100%;
+}
+
+#TakeControlimage {
+	width: 80%;
+	padding: 2em;
+	margin: auto;
+}
+#TakeControlimage img {
+	width: 100%;
+}
+#APlatform {
+	padding: 2em;
+	margin: auto;
+	width: 100%;
+	clear: left;
+}
+#APlatformimage {
+	width: 100%;
+	padding: 2em 0em 0em 0em;
+}
+.vannair {
+	width: 100%;
+}
+#APlatformtext {
+	padding: 1em 3em 2em 3em;
+	text-align: center;
+	width: 100%;
+}
+#spanimage1 {
+	width: 100%;
+}
+#spantext1 {
+	width: 100%;
+	margin-bottom: 3em;
+}
+#spantext1 h3 {
+	margin-bottom: .25em;
+}
+#spanimage2 {
+	width: 100%;
+}
+#spantext2 {
+	float: left;
+	width: 100%;
+}
+#spantext2 h3 {
+	margin-bottom: .25em;
+
+}
+#spanimage3 {
+	padding: 1em;
+	width: 100%;
+	
+}
+#spantext3 {
+	float: left;
+	width: 100%;
+
+}
+#spantext3 h3 {
+	margin-bottom: .25em;
+}
+
+#spanimage4 {
+	padding: 1em;
+	width: 100%;
+}
+#spantext4 {
+	float: left;
+	width: 100%;
+}
+#spantext4 h3 {
+	margin-bottom: .25em;
+}
+
+#spanlink a {
+	clear: left;
+	background-color: #21CC3D;
+	text-decoration: none;
+	color: white;
+	font-size: 1.5em;
+	font-style: lighter;
+	padding: .75em 1.25em .75em 1.25em;
+	border-radius: 3em;
+}
 }
